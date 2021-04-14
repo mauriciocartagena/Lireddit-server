@@ -8,7 +8,6 @@ import { ApolloServer } from "apollo-server-express";
 import { buildSchema } from "type-graphql";
 import { HelloResolver } from "./resolvers/hello";
 import { PostResolver } from "./resolvers/post";
-import { Post } from "./entities/Post";
 // import { Post } from "./entities/Post";
 
 const main = async () => {
